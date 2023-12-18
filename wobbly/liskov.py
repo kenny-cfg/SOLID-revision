@@ -16,3 +16,12 @@ class Square(Rectangle):
         if key in ("width", "height"):
             self.__dict__["width"] = value
             self.__dict__["height"] = value
+
+
+def elongate(rectangle: Rectangle):
+    rectangle.width *= 2
+
+
+if __name__ == '__main__':
+    square = Square(5)
+    square.width = 6
