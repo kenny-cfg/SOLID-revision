@@ -6,6 +6,8 @@ class FrontEnd:
         data = self.back_end.get_data_from_database()
         print("Display data:", data)
 
+
 class BackEnd:
     def get_data_from_database(self):
         return "Data from the database"
+    
