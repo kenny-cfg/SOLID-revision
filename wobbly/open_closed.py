@@ -1,5 +1,6 @@
 from math import pi
 
+
 class Shape:
     def __init__(self, shape_type, **kwargs):
         self.shape_type = shape_type
