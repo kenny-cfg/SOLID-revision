@@ -10,4 +10,3 @@ class FrontEnd:
 class BackEnd:
     def get_data_from_database(self):
         return "Data from the database"
-    
